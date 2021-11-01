@@ -1,1 +1,3 @@
-# llan-Style---SUBSILVER
+Hello.
+Our style will appeal to all who love SUBSILVER2. If you have the SUBSILVER2 style - you know about the problems of extensions and this style. We recommend you to install our style Allan SUBSILVER Style as it is based on the style prosilver and not on SUBSILVER. Our style has a very similar appearance on SUBSILVER. You will have to work all extensions as they need to work on the style prosilver. If you notice errors in the work style - please let us know.
+Authors: Tarantul, ScorpionS (Merlin), Allan, Melvin García
