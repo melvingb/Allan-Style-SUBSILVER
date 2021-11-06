@@ -96,8 +96,11 @@ a.exlinks { color: #105289 !important; }
 }
 
 .forumbg, .forabg {
-	background-color: #ececec;
-	background-image: url("./images/bg_list.gif");
+	background-color: #b2bdc6; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #b2bdc6 0%, #d3d9de 100%);
+	background-image: linear-gradient(to bottom, #b2bdc6 0%,#d3d9de 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2bdc6', endColorstr='#d3d9de',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x;
 }
 
 .navbar {
@@ -160,8 +163,11 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .body-blok-h3 h3 {
-	background-image: url("./images/bg_list.gif");
-	border-bottom-color: #a9b8c2;
+	background-color: #b2bdc6; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #b2bdc6 0%, #d3d9de 100%);
+	background-image: linear-gradient(to bottom, #b2bdc6 0%,#d3d9de 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2bdc6', endColorstr='#d3d9de',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x;
 }
 
 .body-blok-info h3 {
@@ -579,8 +585,11 @@ fieldset.polls dd div {
 /* Poster profile block
 ----------------------------------------*/
 #subsilver-nav-topic {
-	background-color: #d3d9de;
-	background-image: url("./images/bg_list.gif");
+	background-color: #b2bdc6; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #b2bdc6 0%, #d3d9de 100%);
+	background-image: linear-gradient(to bottom, #b2bdc6 0%,#d3d9de 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2bdc6', endColorstr='#d3d9de',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x;
 	color: black;
 }
 
