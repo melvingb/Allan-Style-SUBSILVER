@@ -597,12 +597,6 @@ fieldset.polls dd div {
     border-right: 1px solid #d5dbe0 !important;
 }
 
-.postprofile .avatar img {	
-	background-color: white;
-	border: 1px solid #d3d9de;
-	box-shadow: 0 0 7px gray;
-}
-
 .postprofile {
 	color: #666666;
 	border-color: #d5dbe0;

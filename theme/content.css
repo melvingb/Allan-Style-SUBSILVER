@@ -93,15 +93,16 @@ li.row strong {
 }
 
 li.header dt, li.header dd {
-	line-height: 1em;
+	line-height: 1.1em;
 	border-left-width: 0;
 	margin: 7px 0 5px 0;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 li.header dt {
@@ -132,6 +133,8 @@ li.header dl.row-item dt .list-inner {
 }
 
 /* Forum list column styles */
+.row .list-inner { padding: 2px 0; }
+
 dl.row-item {
 	background-position: 10px 50%;		/* Position of folder icon */
 	background-repeat: no-repeat;
@@ -144,7 +147,7 @@ dl.row-item dt {
 }
 
 .topiclist.forums li.row dl.row-item dt .list-inner{
-	padding-left: 52px;			/* Space for folder icon */
+	padding-left: 63px;			/* Space for folder icon */
 }
 
 .topiclist.topics li.row dl.row-item dt .list-inner {
