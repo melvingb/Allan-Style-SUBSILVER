@@ -8,7 +8,7 @@
 
 	<div class="copyright">
 		<!-- EVENT overall_footer_copyright_prepend -->
-		Style developer by <a href="https://zumaclub.ru/">Zuma Portal</a> | <a href="https://nextgen.gt">nextgen<a/>
+		Style developer by <a href="https://zumaclub.ru/">Zuma Portal</a> | <a href="https://nextgen.gt">nextgen</a>
 		<p class="footer-row">
 			<span class="footer-copyright">{{ CREDIT_LINE }}</span>
 		</p>
@@ -61,7 +61,7 @@
 
 <div>
 	<a id="bottom" class="anchor" accesskey="z"></a>
-	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
+	{% if not S_IS_BOT %}{{ RUN_CRON_TASK }}{% endif %}
 </div>
 
 <script src="{T_JQUERY_LINK}"></script>
